@@ -32,10 +32,12 @@ import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
+import SkillImg5 from './assets/img/skills/py2.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
+import SkillImg7 from './assets/img/skills/java2.png';
 import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg9 from './assets/img/skills/c3.png'
+import SkillImg10 from './assets/img/skills/git.png'
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -166,7 +168,7 @@ export const projectsNav = [
     name: 'web development',
   },
   {
-    name: 'branding',
+    name: 'python',
   },
 ];
 
@@ -196,6 +198,12 @@ export const skills = [
   {
     image: SkillImg8,
   },
+  {
+    image: SkillImg9,
+  },
+  {
+    image: SkillImg10,
+  }
 ];
 
 // services
