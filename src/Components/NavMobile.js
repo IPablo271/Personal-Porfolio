@@ -1,8 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const NavMobile = () => {
   return (
-    <div>NavMobile</div>
+    <nav></nav>
   )
 }
 
