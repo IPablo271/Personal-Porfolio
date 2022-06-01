@@ -3,22 +3,15 @@ import {
   FiTwitter,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
-  FiPenTool,
+  FiFacebook,
   FiMail,
   FiMapPin,
   FiServer,
   FiMonitor,
 } from 'react-icons/fi';
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/memflix.jpeg';
@@ -39,10 +32,7 @@ import SkillImg7 from './assets/img/skills/java2.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 import SkillImg10 from './assets/img/skills/git.png'
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+
 
 // navigation
 export const navigation = [
@@ -63,10 +53,6 @@ export const navigation = [
     href: 'services',
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
-  {
     name: 'contact',
     href: 'contact',
   },
@@ -84,37 +70,16 @@ export const social = [
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/IPablo271',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/profile.php?id=100002398924746',
   },
 ];
 
 // companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
+
 
 // projects
 export const projectsData = [
@@ -237,30 +202,7 @@ export const services = [
   },
 ];
 
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-];
+
 
 // contact
 export const contact = [
@@ -268,12 +210,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at pablogonzalez2716@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Guatemala, Guatemala City',
     description: 'Serving clients worldwide',
   },
 ];
