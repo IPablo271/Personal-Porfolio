@@ -1,15 +1,16 @@
 //  icons
 import {
-  FiYoutube,
+  FiTwitter,
   FiInstagram,
   FiGithub,
   FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
+  FiServer,
+  FiMonitor,
 } from 'react-icons/fi';
 
 // companies icons
@@ -20,12 +21,12 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/memflix.jpeg';
+import Project2 from './assets/img/projects/calcu8.png';
+import Project3 from './assets/img/projects/microsoft3.png';
+import Project4 from './assets/img/projects/gt.png';
+import Project5 from './assets/img/projects/p4.png';
+import Project6 from './assets/img/projects/m4.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -36,7 +37,6 @@ import SkillImg5 from './assets/img/skills/py2.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/java2.png';
 import SkillImg8 from './assets/img/skills/figma.png';
-import SkillImg9 from './assets/img/skills/c3.png'
 import SkillImg10 from './assets/img/skills/git.png'
 
 // testimonial images
@@ -75,7 +75,7 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
+    icon: <FiTwitter />,
     href: '',
   },
   {
@@ -121,38 +121,44 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Memflix',
+    category: 'web development',
+    info:'Memflix is a project created to imitate a movie streaming system based on the rendering of components through a database hosted from AWS',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Calculator',
     category: 'web development',
+    info:'This project is a copy of an iphone calculator that implements react and different web technologies. This project has different tests for the correct functioning of the page',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Clon Microsoft page',
+    category: 'web development',
+    info:'This project is a copy of the microsoft page implementing different web technologies such as react, css, html and eslint.',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Recycling app',
+    category: 'UI/UX design',
+    info:'GuateRecila is an app to help the people of Guatemala to reuse their waste through innovative products',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'Recommendation system',
+    category: 'Python',
+    info:'Este proyecto es un sistema de recomendación implementado por medio de python y ne04j',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'Memory',
     category: 'web development',
+    info:'This project is a memory game implemented with different web technologies like react, css and html',
   },
 ];
 
@@ -199,9 +205,6 @@ export const skills = [
     image: SkillImg8,
   },
   {
-    image: SkillImg9,
-  },
-  {
     image: SkillImg10,
   }
 ];
@@ -212,25 +215,25 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'With tools like figma I can make a web page design for my users so that they can see an initial prototype of their page and its different requirements.',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'With tools like react, css, html, node among others I can make different interactive web pages with the clients requirements',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
+    icon: <FiMonitor />,
+    name: 'Hosting',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I can host your website through servers like Aws or if you prefer another way, I can also work with firebase.',
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: <FiServer />,
+    name: 'Databases',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I can work with different types of databases such as PostgresSQl and MySql and make a connection to your web page and thus be able to store all the required data',
   },
 ];
 

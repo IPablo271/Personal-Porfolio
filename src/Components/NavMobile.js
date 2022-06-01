@@ -85,6 +85,7 @@ const NavMobile = () => {
               </li>
             )
           })}
+          <Social />
       </motion.ul>
     </nav>
   )
