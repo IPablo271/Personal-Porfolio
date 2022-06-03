@@ -1,5 +1,5 @@
 import React from 'react'
-import MyImg from '../assets/img/img.png'
+import MyImg from '../assets/img/pab.png'
 const Hero = () => {
   return (
     <section id='home' className='lg:h-[85vh] flex

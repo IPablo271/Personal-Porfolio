@@ -116,7 +116,7 @@ export const projectsData = [
     image: Project5,
     name: 'Recommendation system',
     category: 'Python',
-    info:'Este proyecto es un sistema de recomendación implementado por medio de python y ne04j',
+    info:'This project is a recommendation system implemented through python and ne04j',
   },
   {
     id: '6',

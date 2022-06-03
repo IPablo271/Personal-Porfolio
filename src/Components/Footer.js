@@ -3,8 +3,6 @@ import React from 'react';
 // import social data
 import { social } from '../data';
 
-// import logo
-import Logo from '../assets/img/logo.svg';
 
 const Footer = () => {
   return (
@@ -20,9 +18,6 @@ const Footer = () => {
                 </a>
               );
             })}
-          </div>
-          <div>
-            <img src={Logo} alt='' />
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
             &copy; 2022 Pablo Gonzalez. All rights reserved.

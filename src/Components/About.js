@@ -18,9 +18,9 @@ const About = () => {
                         </p>
                         <hr className='mb-8 opacity-5'></hr>
                         <p className='mb-8'>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt 
-                            nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum 
-                            ducimus voluptates voluptas?
+                        Hello, my name is Pablo Daniel Gonzalez Ramos. I am currently in my third year of computer science engineering at the Universidad del Valle de Guatemala. 
+                        During my stay at the university, I have been able to obtain 2 academic awards and I have also managed to be an assistant professor of the course. of algorithms and basic programming,
+                         I enjoy learning every day more about the world of programming and different technologies. I have worked during the holidays as an installer of structured cabling and atms.
                         </p>
                     </div>
                     <button className='btn btn-md bg-accent

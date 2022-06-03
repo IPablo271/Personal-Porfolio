@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 // import components
-import Logo from '../assets/img/logo.svg';
+import Logo from '../assets/img/log3.png';
 import Nav from '../Components/Nav';
 import NavMobile from '../Components/NavMobile';
 import Socials from '../Components/Social';
